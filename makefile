@@ -1,6 +1,6 @@
-all: showMemery
+all: showMemory
 
-showMemery: showMemery.c
-	gcc-13 -o showMemery showMemery.c || gcc -o showMemery showMemery.c 
+showMemory: showMemory.c
+	gcc-13 -o showMemory showMemory.c || gcc -o showMemory showMemory.c 
 clean:
-	rm -f showMemery
+	rm -f showMemory
